@@ -4,9 +4,6 @@ workflows:
       max_build_duration: 120
       instance_type: mac_mini_m1
       environment:
-        ios_signing:
-          distribution_type: app_store
-          bundle_identifier: "org.reactjs.native.example.newtestlab"
         vars:
           BUNDLE_ID: "org.reactjs.native.example.newtestlab"
           XCODE_WORKSPACE: "newtestlab.xcworkspace" # <-- Put the name of your Xcode workspace here
