@@ -42,13 +42,4 @@ react-native-ios:
       - /tmp/xcodebuild_logs/*.log
       - $HOME/Library/Developer/Xcode/DerivedData/**/Build/**/*.app
       - $HOME/Library/Developer/Xcode/DerivedData/**/Build/**/*.dSYM
-    publishing:
-      email:
-        recipients:ß
-          - user_1@example.com
-          - user_2@example.com
-        notify:
-          success: true
-          failure: false
-      app_store_connect:
-        auth: integration
+    
